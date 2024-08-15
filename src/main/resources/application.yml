@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: "property"
+  dataSource:
+    url: "jdbc:postgresql://localhost:5432/propertyDb"
+    driverClassName: org.postgresql.Driver
+    username: "postgres"
+    password: "changemeinprod!"
+  jpa:
+    hibernate:
+      ddl-auto: "update"
